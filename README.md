@@ -1,4 +1,5 @@
 # Template2
 Free portfolio template
-Still working on the media queries.
-Uses Bootstrap Navigation 
+
+<p>Still working on the media queries.</p>
+<p>Uses Bootstrap Navigation </p>
