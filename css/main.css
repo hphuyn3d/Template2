@@ -1,0 +1,77 @@
+/*Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+ul {
+    font-size: 20px;
+    margin: 22% 40%;
+    padding: 10px
+}
+
+ul li {
+    position: relative;
+    left: -300px;
+    padding: 10px;
+    
+}
+
+a {
+    color: white !important;
+    font-family: Gill Sans / Gill Sans MT, sans-serif;
+}
+
+
+header{
+    background: url(img/hi.png) no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
+    color: black;
+    font-family: 'Arial';
+  }
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#top {
+    position: fixed;
+    bottom: 500px;
+    left: 500px;
+    background-color: white;
+    padding: 10px 50px;
+    
+}
+
+#nav {
+    position: relative;
+    bottom: -200px
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-list li{
+    color: white;
+    margin: 30px 160px;
+    float: left;
+}
+
+.footer-list a {
+    font-size: 20px;
+}

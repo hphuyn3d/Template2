@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+a{
+    color: white !important;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar-brand {
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+
+.jumbo {
+    background-image: url(img/gondola.jpg);
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+}
+
+.jumbo h1 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.work {
+    padding: 60px 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.work .box {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    margin: 20px 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.work .box .hoverBox {
+    background: rgba(48, 57, 92, .7);
+    position: relative;
+    left: -100%;
+    height: 100%;
+    position: 100%;
+    transition: all .5s ease;
+    padding: 35px 15px;
+    text-align: left;
+    opacity: 0;
+}
+
+.work .box .hoverBox h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.work .box .hoverBox h5 {
+    color: white;
+    font-size: 18px;
+}
+.work .box:hover .hoverBox {
+    left: 0;
+    opacity: 1;
+}
+
+
+.work #box-1 {
+     background: url(http://caribewebdesign.com/wp-content/uploads/2016/11/web-designer.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-2 {
+     background: url(http://plusquotes.com/images/quotes-img/cool_cat.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-3 {
+     background: url(http://cdn.lifedaily.com/wp-content/uploads/2015/06/graymalin.png) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-4 {
+     background: url(http://www.hotel-r.net/im/hotel/fr/artsy-6.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-5 {
+     background: url(http://data.whicdn.com/images/135263283/original.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-6 {
+     background: url(http://data.whicdn.com/images/92313003/superthumb.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-7 {
+     background: url(http://s3.favim.com/orig/151224/artsy-blue-blue-water-fence-Favim.com-3804423.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-8 {
+     background: url(http://s8.favim.com/orig/72/ii-art-artsy-beautiful-Favim.com-689826.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.work #box-9 {
+     background: url(http://www.greasonmedia.com/wp-content/uploads/2014/11/artsty-stock-photos-f.jpg) no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-list li{
+    color: white;
+    margin: 30px 160px;
+    float: left;
+}
+
+.footer-list a {
+    font-size: 20px;
+}

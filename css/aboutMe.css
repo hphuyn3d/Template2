@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+
+body {
+    padding-top: 70px;
+}
+
+a{
+    color: white !important;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand #logo {
+     height: 300%;
+    width: 150%;
+    margin-top: -55px;
+    margin-right: 8px;
+    margin-left: -90px;
+}
+
+a:active{
+    background-color: black;
+    
+}
+
+
+.jumbo {
+    background-image: url(../img/aboutMeGondola.jpg);
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+}
+
+.jumbo h1 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.content-about, .content-skills {
+    background-color: white
+}
+
+.content-about h2 , .content-skills h2 {
+     font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+}
+
+.about, .skills {
+    margin: 60px;
+}
+
+.web {
+    float: left;
+}
+
+.web img {
+    margin: 10px;
+}
+
+.program-lang {
+    float: right;
+}
+
+.program-lang img {
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-list li{
+    color: white;
+    margin: 30px 165px;
+    float: left;
+}
+
+.social-list a {
+    font-size: 20px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:700px) {
+    footer{
+        float: left;
+        margin-left: 180px;
+    }
+    
+    .social-list li {
+        margin-left: 235px;
+    }
+    
+    .navbar-brand #logo{
+    height: 300%;
+    width: 150%;
+    margin-top: -55px;
+    margin-right: 8px;
+    margin-left: -37px;
+    }
+    
+    .collapse .navbar-collapse #myNavbar{
+        
+    }
+    
+}
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (max-width: 480px) {
+    footer {
+        float: left;
+        margin-left: 80px;
+    }
+    
+    .social-list li {
+        margin-left: 145px;
+    }
+    
+    .jumbo {
+        background-size: 200% 100%;
+        
+    }
+    
+    .jumbo h1 {
+        font-size: 50px;
+        text-align: left;
+        
+    }
+    
+    
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+    @media only screen and (max-width: 320px){
+        
+    }
+    
+    
+    
+}
